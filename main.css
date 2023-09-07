@@ -1,0 +1,68 @@
+html {
+    background-color:lavender;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: rgb(225, 201, 169);
+    border: 10px solid rgb(212, 178, 225);
+    border-radius: 10px;
+}
+
+#points {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
+    min-width: 685px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell img {
+    height: 90px;
+    width: 90px;
+
+
+}
+
+.gameName {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(212, 178, 225);
+    text-shadow: 3px 2px white;
+
+}
+
+.scoreHeading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px rgb(212, 178, 225) ;
+}
